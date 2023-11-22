@@ -4,7 +4,7 @@ import os
 
 os.chdir('O:\Folder\code\set data')
 
-headers = {'X-Api-Key': '374ed794-76c2-4c98-ae23-ceef0d38a28a'}
+headers = {'X-Api-Key': ''}
 
 
 set_req = requests.get('https://api.pokemontcg.io/v2/sets', headers=headers)
